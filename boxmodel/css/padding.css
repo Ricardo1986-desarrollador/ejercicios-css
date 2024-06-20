@@ -1,0 +1,73 @@
+/* 
+Padding:
+
+Es la propiedad que nos permite generar espacio interno entre el borde y la caja.
+Es un shortthand (Propiedad Abreviada) que controla los 4 Lados posibles a los que dar padding.
+    padding-top: padding superior.
+    padding-right: padding derecho.
+    padding-bottom: pading inferior.
+    padding-left: padding izquierdo.
+    
+Admite hasta 4 valores que van en el orden de las agujas del reloj.
+    4 valores -> padding: top right bottom left;
+    3 valores -> padding: top left/right bottom;
+    2 valor -> padding: top/bottom left/right;
+    1 valor -> padding: top/right/bottom/left; 
+*/
+body{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+.header{
+    background-color: steelblue;
+    color: rgb(255, 255, 255);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 50px 20px 100px 70px;
+}
+.inline{
+    background-color: coral;
+    color: rgb(255, 255, 255);
+    padding-left:100px;
+    padding-top:20px;
+    margin-left:100px;
+}
+.buttons{
+    background-color: steelblue;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:30px;
+}
+.button{
+    margin-left:90px;
+    padding:25px 50px;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    padding:20px 50px 100px 50px;   
+}
+.boxbuton{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boton{
+    padding: 10px 50px 20px 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}

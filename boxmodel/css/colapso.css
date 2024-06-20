@@ -1,0 +1,40 @@
+/* 
+Margenes Verticales
+
+LOS MARGENES VERTICALES COLAPSAN
+
+solamente los margenes verticales llegan a colapsar, nunca colapsaran los margenes horizontales
+
+es importante resaltar que no debemos poner auto a los margenes vertiocales ya que no funciona
+
+el colapso de margenes verticales entre cajas, se soluciona rapidamente teniendo todos los elementos (cajas) en margin-bottom, asi todas las cajas iran bajando de una en una
+
+el colapso de margenes verticales para padres e hijos se puede solucionar de 3 formas distintas- dentro del contenedor (padre) favor de poner propiedades como overflow:hidden; esto hara que el contenedor se vaya hatsa cero de body, otro hack, seria colocar la propiedad padding-top: 0.1px; (no importa que medida es simplemente para que la caja se vaya al borde del padre y por ultimo el hack tercero seria manejar un border-top: 0.1px; tambien con cualqueir medida con los valores de 0.1px solid cualquier color.   
+*/
+body{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
+.header{
+    background-color: rgb(255, 127, 80);
+    margin-bottom: 20px;
+    height: 100px;
+    overflow: hidden;
+    padding-top: 0.5px;
+    border-top: 0.1px solid rgb(255, 127, 80);
+}
+.box-1,
+.box-2{
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box-1{
+    margin-bottom: 30px;
+}
+.text{
+    margin: 0;
+    margin-top: 50px;
+}

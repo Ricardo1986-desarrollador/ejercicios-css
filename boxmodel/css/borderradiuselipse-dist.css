@@ -1,0 +1,44 @@
+/* 
+Border Radius->
+
+Si le damos 2 valores separados ´por una barra dibujara una elipse en cada vertice con los radios que le especifiquemos.
+
+border-radius: 50px / 100px; -> Elipse con 50px en el eje X y 100px en el eje .
+
+Con dos valores:
+    Al tener dos radios debemos agrupar los radios y separarlos por una barra.
+    border-radius: 25px / 50px; -> Elipse de 25px en Y y 50px en x a cada vertice.
+
+    border-radius: 25px 50px / 50px 100px; -> Elipse de 25 px eY y 50px en X a los vertices superior izquierdo e inferior derecho y una elipse de 50px en Y y 100px en X en los vertices superior derecho e inferior izquierdo.
+
+    border-radius: 25px 50px 75px / 50px 100px 150px; -> Elipse de 25px en Y y 50px en X al vertice superior izquierdo, una elipse de 50px en Y y 100px en X en los vertices superior derecho e inferiro izqueirdo y una elipse de 75px en Y y de 150px en X al vertice inferior derecho.
+
+    border-radius: 25px 50px 75px 100px / 50px 100px 150px 200px; -> Elipse de 25px en Y y 50px en X al vertice superior izquierdo, una elipse de 50px en Y y 100px en X en el vertice superior derecho, una elipse de 75px en Y y 150px en X al vertice inferior derecho y una elipse de 100px en Y y 200px en X en el vertice inferior izquierdo.
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    color: #fff;
+}
+.box{
+    background-color: #fff;
+    color: #333;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:50px 100px 150px 200px/100px 150px 200px 250px;
+}
+.box1{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius:50px  100px;
+    border-top-right-radius:100px  150px;
+    border-bottom-right-radius: 150px 200px;
+    border-bottom-left-radius: 200px  250px;
+}

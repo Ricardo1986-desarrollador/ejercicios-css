@@ -1,0 +1,149 @@
+/* 
+    Border:
+        Es la propiedad que nos permite modificar el borde de la caja 
+        Es un shorthand (propiedad abreviada) que agrupa 3 propiedades.
+            border-width: ancho del borde
+                 border-top-width
+                 border-right-width
+                 border-bottom-width
+                 border-left-width
+            border-style: estilo del borde
+                border-top-style
+                border-right-style
+                border-bottom-styleh
+                border-left-style
+                Listado de valores para style: 
+                    none
+                    hidden
+                    dotted
+                    dashed
+                    solid
+                    double
+                    groove
+                    ridge
+                    inset
+                    outset
+            border-color: color del borde 
+                border-top-color
+                border-right-color
+                border-bottom-color
+                border-left-color
+
+*/
+body{
+    background-color: #333;
+    margin: 0;
+    color: #fff;
+}
+.head{
+    background-color: steelblue;    
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inline{
+    background-color: coral;
+    color: #fff;
+}
+.box2{
+    background-color: steelblue;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.button{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: none;
+}
+.button1{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: hidden;
+}
+.button2{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: dotted;
+}
+.button3{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: dashed;
+}
+
+.button4{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: solid;
+}
+.button5{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: double;
+}
+.button6{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: groove;
+}
+.button7{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: ridge;
+}
+.button8{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: inset;
+}
+.button9{
+    padding: 20px 20px 20px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    border: 10px  solid red;
+    border-right-width:10px;
+    border-right-color: red;
+    border-style: outset;
+}

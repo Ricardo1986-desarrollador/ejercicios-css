@@ -1,0 +1,61 @@
+/* 
+Overflow
+-> Decimos que un contenido se desborda cunado la caja es mas pequeñ que el contenedor.
+
+Overflow:
+    Es la propiedad que controla que debe hacer la caja cuando su contenido se desborda del contenedor.
+
+    Es un shorthand que engloba overflow-x  y overflow-y, tiene cuatro posibles valores:
+        visible-> Es el valor por defecto.
+        hidden-> El contenido que se desborde no se verá, si aplicamos esta propiedad en un solo eje, el otro se pondra automaticamente en el valor scroll.
+        scroll-> Aparecerán barras de scroll en el eje asignado(x, y o ambos)
+        auto-> Aparecerán barras de scroll en el caso de que hiciera falta.
+*/      
+body{
+    background-color: #333;
+    color: #fff;
+}
+.box{
+    background-color: steelblue;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    overflow: auto;
+}
+.text{
+    margin: 0;
+}
+.box0{
+    margin-top: 20px;
+    background-color: steelblue;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.box1, 
+.box2{
+    background-color: coral;
+    padding: 15px;
+}
+.box3{
+    margin-top: 25px;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 50px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    margin-top: 25px;
+    width: 350px;
+    height: 500px;
+}
+
+ 

@@ -1,0 +1,45 @@
+/* 
+Box-sizing:
+    Es la propiedad que nos permite controlar el calculo que hace el navegador a la hora de modificar las propiedaddes content, padding and border
+    Los 2 valores que podemos darle son:
+        content-box -> Valor por defecto
+        border-box: -> Calculo del tamaño del elemento
+        incluyendo el padding y el border.
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    color: #fff;
+}
+.box{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border:5px solid red;
+}
+.box1{
+    background-color: white;
+    width: 150px;
+    height: 15  0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border:5px solid red;
+}
+.box2{
+    background-color: black;
+    width: 150px;
+    height: 15  0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border:5px solid red;
+}

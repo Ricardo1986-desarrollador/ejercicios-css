@@ -1,0 +1,29 @@
+/*
+ display
+    La propiedad display nos sirve para cambiar el contexto de los elementos dentro del navegador.
+
+Admite varios valores-> 
+    noe-> Hace que ele elemneto no se muestre, pero sigue cargandose.
+    block-> Hace que elemento sea de bloque.
+    inline-> Hace que ele elemento sea de linea.
+    inline-block-> Hace que elemento sea de linea pero admite medidas y margenes verticales.
+*/
+body{
+    background-color: #333;
+}
+.text{
+    background-color: rgb(255, 127, 80);
+    display: none;
+    display: inline;
+
+
+}
+.link{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 150px;
+    margin-top: 50px;
+}

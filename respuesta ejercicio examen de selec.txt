@@ -1,0 +1,49 @@
+respuesta ejercicio examen de selectores
+
+ejercicio 1 plate
+Type Selector
+Select elements by their type
+A
+Selects all elements of type A. Type refers to the type of tag, so div, p and ul are all different element types.
+Examples
+div selects all div elements.
+p selects all p elements.
+
+ejercicio 2 bento
+Type Selector
+Select elements by their type
+A
+Selects all elements of type A. Type refers to the type of tag, so div, p and ul are all different element types.
+Examples
+div selects all div elements.
+p selects all p elements.
+ejercicio 3 #fancy
+ejercicio 4 plate apple
+ejercicio 5 #fancy pickle
+ejercicio 6 .small
+ejercicio 7 bento .small, plate .small
+ejercicio 8 bento orange.small
+ejercicio 9 plate, bento
+ejercicio 10 *
+ejercicio 11  #fancy .small, pickle, plate apple
+ejercicio 12 plate + .small, plate + apple
+ejercicio 13 bento ~ .small, .small ~ pickle
+ejercicio 14 plate > apple
+ejercicio 15 plate :first-child
+ejercicio 16  plate :only-child
+ejercicio 17 #fancy :last-child, pickle
+ejercicio 18 plate:nth-child(3)
+ejercicio 19 bento:nth-last-child(3)
+ejercicio 20 apple:first-of-type
+ejercicio 21 plate:nth-of-type(even)
+ejercicio 22 plate:nth-of-type(2n+3)
+ejercicio 23 .small:only-of-type
+ejercicio 24 .small:last-of-type
+ejercicio 25 bento:empty
+ejercicio 26 :not(#fancy, .small, plate)
+ejercicio 27 apple[for], plate[for], bento[for]
+ejercicio 28 plate[for]
+ejercicio 29 [for="Vitaly"]
+ejercicio 30 [for^="Sam"], [for^="Sarah"]
+ejercicio 31 [for$="Hayato"], [for$="Minato"]
+ejercicio 32 [for*="Robbie"], [for*="Bobby"]

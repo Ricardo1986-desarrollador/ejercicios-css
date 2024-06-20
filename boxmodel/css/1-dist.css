@@ -1,0 +1,27 @@
+/* 
+Box Model / Modelo de Caja
+*/
+body{
+    background-color: #333;
+}
+.title{
+    color: rgb(0, 255, 0);
+}
+.title1{
+    color: rgb(255, 0, 0);
+}
+.title2{
+    color: rgb(0, 0, 255);
+}
+.title3{
+    color: rgb(255, 255, 0);
+}
+.title4{
+    color: rgb(0, 255, 255);
+}
+.title5{
+    color: rgb(255, 0, 255);
+}
+.text{
+    color: rgb(0, 19    0, 128);
+}
