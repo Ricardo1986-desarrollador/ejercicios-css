@@ -1,0 +1,206 @@
+/* 
+Z-INDEX
+    z-ndex-> Es la propiedad que nos permite ordenar los elementos superpuestos para controlar cual se coloca por delante y cual por detras.
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #333;
+    color: #000;
+}
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: #222;
+    position: relative;
+}
+.box-1 {
+    background-color: coral;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    z-index: -1;
+}
+.box1-2 {
+    background-color: cyan;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    z-index: -2;
+    top: -25px;
+}
+.box-2 {
+    background-color: lime;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    z-index: 10;
+}
+.box-3 {
+    background-color: aquamarine;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 20;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    left: 100px;
+    z-index: 30;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 0, 0);
+    position: relative;
+    left: 150px;
+    top: -50px;
+    z-index: 20;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 0, 0);
+    position: relative;
+    left: 200px;
+    top: -100px;
+    z-index: 10;
+}
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 0, 0);
+    position: relative;
+    left: 250px;
+    top: -150px;
+    z-index: 9;
+}
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(135, 0, 0);
+    position: relative;
+    left: 300px;
+    top: -200px;
+    z-index: 40;
+}
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 0, 0);
+    position: relative;
+    left: 250px;
+    top: -250px;
+    z-index: 30;
+}
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 0, 0);
+    position: relative;
+    left: 200px;
+    top: -300px;
+    z-index: 40;
+}
+.box8 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 0, 0);
+    position: relative;
+    left: 150px;
+    top: -350px;
+    z-index: 40;
+}
+.box9 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    left: 100px;
+    top: -400px;
+    z-index: 40;
+}
+.box10 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    left: 500px;
+    top: -900px;
+    z-index: 40;
+}
+.box11 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 0, 0);
+    position: relative;
+    left: 450px;
+    top: -950px;
+    z-index: 10;
+}
+.box12 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 0, 0);
+    position: relative;
+    left: 400px;
+    top: -1000px;
+    z-index: 9;
+}
+.box13 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 0, 0);
+    position: relative;
+    left: 350px;
+    top: -1050px;
+    z-index: 30;
+}
+.box14 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 0, 0);
+    position: relative;
+    left: 350px;
+    top: -1050px;
+    z-index: 30;
+}
+.box15 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 0, 0);
+    position: relative;
+    left: 400px;
+    top: -1100px;
+    z-index: 30;
+}
+.box16 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 0, 0);
+    position: relative;
+    left: 450px;
+    top: -1150px;
+    z-index: 30;
+}
+.box17 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    left: 500px;
+    top: -1200px;
+    z-index: 30;
+}

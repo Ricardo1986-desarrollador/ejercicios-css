@@ -1,0 +1,29 @@
+/* 
+Este es un ejercicio para comprobar la propiedad position fixed
+*/
+body{
+    background-color: #333;
+    margin: 0;
+    color: white;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: tomato;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+.box{
+    background-color: coral;
+    width: 300px;
+    height: 300px;
+    margin-top: 140px;
+    }
+.box1{
+    background-color: coral;
+    width: 300px;
+    height: 300px;
+}

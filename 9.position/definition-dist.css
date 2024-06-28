@@ -1,0 +1,57 @@
+/* 
+La propiedad position nos permite posicionar los elementos. Hay algunos conceptos que debeis conocer para entender position.
+
+Flujo de renderizado-> Por norma general los elementos se dibujan de izquierda a derecha y de arriba abajo. El punto 0,0 de los elementos, por norma general, es la esquina superior izquierda.
+
+Espacio reservado -> Es el espacio que tiene un elemento asignado en el navegador.
+
+Elemento posicionado -> Esto significa que el elemento tiene la propiedad position con un valor distinto de "static", que es el valor que tiene esta propiedad por defecto.
+
+Stackin context  -> Contexto de apilamiento, Es el orden en elq ue se apilaran las cajas que se     
+
+Al posicionar un elemento se habilitan 5 propiedades que podemos utilizar para mover los elementos en los 3 ejes.
+
+*/
+body{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+.head{
+    background-color: darkcyan;
+    width: 700px;
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 10px inset rgb(0, 170, 170);
+    box-shadow: 15px 20px 5px black;
+    margin-bottom: 30px;
+}
+.body{
+    background-color: rgb(0, 139, 135);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px inset rgb(0, 170, 170);
+    box-shadow: 20px 20px 1cap black;
+    margin-bottom: 30px;
+}
+.foot{
+    background-color: rgb(0, 139, 135);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 700px;
+    margin-left: 500px;
+    border: 10px inset rgb(0, 170, 170);
+    box-shadow: 20px 20px 1cap black;
+}
+.container{
+    text-align: center;
+    color: #333;
+}
+.text{
+    text-align: left;
+    color: #fff;
+}
