@@ -1,0 +1,32 @@
+/* 
+REM VS EM
+
+    rem -> COrresponde a la medida de la "m" de la raiz del documento (html)
+
+    em -> Corresponde a la medida de la "m" del contexto donde nos encontremos.
+    16px =1rem
+
+    El estandar del tamaño de fuente por defecto en la raiz del documento es de 16px Y no se debe modificar.
+
+    NOTA->  Tanto "em" como "rem" se calcula en base a la propiedad font-size (tamño de fuente) 
+    NO USAR COMO FUENTE (em)
+*/
+body{
+    background-color: #333;
+    color: #fff;
+    font-size: 10px;
+}
+.title{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 40px;
+}
+.link{
+    background-color: lightcoral;
+    color: #333;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    font-size: 2rem ;
+}
