@@ -1,0 +1,44 @@
+/* 
+Tipografía.
+
+    La tipografía es la ciencia que estudia el diseño y uso de los tipos de letra
+
+    Las fuentes son tipos especificos de letra.
+
+    Los glifos son cada uno de los dibujos que representan cada simbolo de la fuente, incluidos los espacios.
+
+    Los estilos de fuente son las modificaciones que se hacen a las fuentes, como el grosor o la inclinación.
+
+    Familia tipografica-> Son las diferentes funetes que pertenecen a una misma fuente base.
+
+    Cuando usamos una propiedad text-* estamos afectando a un bloque completo.
+
+    Cuando utilizamos una propiedad font-* afectamos a la fuente del texto.
+
+    Fuentes predeterminadas, son las fuentes que se cinsideran sguras ya que son genericas y no establecen una familia tipografica, si no un estilo de fuente.
+        serif: Fuentes que tienen serifas (adorno en los caracteres).
+        san-serif: Fuente sin serifa.
+        monospace: Fuentes que tienen el mismo espaciado entre todos sus caracteres.
+        Cursive: Fuentes que oretenden emular escritura a mano, con ligaduras y trazos fluidos
+        fantasy: Fuentes que suelen ser decorativas.
+        0074 3607 0015 8717 3366
+
+*/
+body{
+    background-color: hsl(0, 100%, 0%);
+    color: hsl(0, 100%, 50%);
+    font-family: "Mrs Saint Delafield", cursive;
+}
+  
+.t1{
+    font-family: serif;
+}
+.t2{
+    font-family: fantasy;
+}
+.t3{
+    font-family: monospace;
+}
+.t4{
+    font-family: cursive;
+}

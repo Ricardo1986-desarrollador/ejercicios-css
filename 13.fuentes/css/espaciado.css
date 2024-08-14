@@ -1,0 +1,47 @@
+/* 
+ESPACIADO EN FUENTES Y TEXTOS.
+
+    letter-spacing: Establece la separación entre caracteres, se puede establecer en cualquier medida valida para CSS.
+
+    word-spacing: Establece la separación entre palabras, se puede establecer en cualquier medida valida para css.
+
+    line-height: Establece el alto de cada linea, se puede dar una medida concreta o se puede poner un número que se multiplicará por el font size del texto al que se lo estemos aplicando.
+
+    Orientación del texto.
+    writing-mode: Establece la dirección del texto
+*/
+body{
+    background-color: #333;
+    color: #fff;
+}
+.t1{
+    color: blue;
+    letter-spacing: 10px;
+}
+.t2{
+    color: red;
+    word-spacing: 10px;
+}
+.t3{
+    color: yellow;
+    line-height: 3;
+    background-color: #111;
+}
+.t4{
+    color: green;
+    writing-mode: vertical-lr;
+    display: inline;
+    
+}
+.t5{
+    color: gold;
+    writing-mode: vertical-rl;
+    display: inline;
+}
+.t6{
+    color: red;
+    word-break: break-all;
+    width: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}

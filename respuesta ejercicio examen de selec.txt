@@ -17,7 +17,15 @@ Selects all elements of type A. Type refers to the type of tag, so div, p and ul
 Examples
 div selects all div elements.
 p selects all p elements.
+
 ejercicio 3 #fancy
+ID Selector
+Select elements with an ID
+#id
+Selects the element with a specific id. You can also combine the ID selector with the type selector.
+Examples
+#cool selects any element with id="cool"
+ul#long selects ul id="long"
 ejercicio 4 plate apple
 ejercicio 5 #fancy pickle
 ejercicio 6 .small

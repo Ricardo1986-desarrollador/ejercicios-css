@@ -1,0 +1,127 @@
+/* 
+RGB /RGBA
+
+    En el modo RGB tenemos tres canales (Red, Green, Blue) y tenemos 8 bits de color por canal, (cada bit tiene dos posibles valores 0 o 1) Lo que significa que tenemos 2^8 posibles valores, que van desde 0 hasta 255.
+
+    Esto nos da un total de 255 * 255 *255 = 16,581,375 colores.
+
+    Su sintaxis es rgb(R,G,B,)
+
+    Si ponemos todos los canales a 0 tendremos un negro puro y si los ponemos a 255 tendremos un blanco.
+
+    Para movernos por la gama de grises debemos poner los 3 canales con el mismo valor, si ponemos los 3 canales a 128 tendremos el gris puro.
+
+    El modo RGB nos da la opción de utilizar un cuarto canal que corresponderá al canal apha, es decir, la transparencia y su valor va desde 0 a 1. Tenemos dos sintaxios para utilizar el canal alpha.
+
+*/  
+body{
+    background-color: #333;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+    left:100px;
+    bottom:100px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    left:200px;
+    bottom:200px;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 0);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+    left: 0;
+    bottom: 200px;
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 255);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+    left:100px;
+    bottom:300px;
+}
+.box6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 0);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    left:200px;
+    bottom:400px;
+}
+.box7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 255);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+    left: 0;
+    bottom: 400px;
+}
+.box8{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 128, 128);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+    left:100px;
+    bottom:500px;
+}
+.box9{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 255);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    left:200px;
+    bottom:600px;
+}
+.box10{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255 0 255 / 0.5);
+    box-shadow: 5px 10px 5px rgb(0, 0, 0);
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    left:200px;
+    bottom:600px;
+}

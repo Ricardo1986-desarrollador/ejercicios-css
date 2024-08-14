@@ -1,0 +1,134 @@
+/* 
+Hexadecimal
+
+    La notación hexadecimal, es la mas común en desarrollo web, se basa en los mismos principios que el RGB pero escrito en notación hexadecimal.
+    
+    El sistema hexadecimal es un sistema basado en 16 valores del 0 al 15, Utiliza los digitos del 0 al 9 y las letras de la A la F
+
+    En este tipo de notación también necesitamos 256 valores.
+
+    Se compone de 16 caracteres en parejas ya que 16*16=256
+    0 1 2 3 4 5 6 7 8 9 A B C D E F
+    0 1 2 3 4 5 6 7 8 9 A B C D E F 
+
+    Para indicar que vamos a usar notación hexadecimal debemos usar el simbolo de hash/almohadilla # y a continuación usaremos esta notación por parejas #RRGGBB.
+
+    Cuando una pareja usa el mismo valor se puede omitir el segundo valor siempre que se haga en las tres parejas 
+
+    rgb(255,255,255) -> #FFFFFF -> #FFF
+    rgb(0,0,0) -> 000000 -> #000
+
+    Tambien tenemos la opcion de usar transparencias en hexadecimal añadiendo un cuarto canal que sigue las mismas normas.
+        */
+        body{
+            background-color: #333;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            margin-bottom: 20px;
+            margin-left: 20px;
+            position: relative;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: #000;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            margin-bottom: 20px;
+            margin-left: 20px;
+            position: relative;
+            left:100px;
+            bottom:100px;
+        }
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color: #f00;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            position: relative;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            left:200px;
+            bottom:200px;
+        }
+        .box4{
+            width: 100px;
+            height: 100px;
+            background-color: #0f0;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            margin-bottom: 20px;
+            margin-left: 20px;
+            position: relative;
+            left: 0;
+            bottom: 200px;
+        }
+        .box5{
+            width: 100px;
+            height: 100px;
+            background-color: #00f;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            margin-bottom: 20px;
+            margin-left: 20px;
+            position: relative;
+            left:100px;
+            bottom:300px;
+        }
+        .box6{
+            width: 100px;
+            height: 100px;
+            background-color: #f08080;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            position: relative;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            left:200px;
+            bottom:400px;
+        }
+        .box7{
+            width: 100px;
+            height: 100px;
+            background-color: #808080;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            margin-bottom: 20px;
+            margin-left: 20px;
+            position: relative;
+            left: 0;
+            bottom: 400px;
+        }
+        .box8{
+            width: 100px;
+            height: 100px;
+            background-color: #0007;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            margin-bottom: 20px;
+            margin-left: 20px;
+            position: relative;
+            left:100px;
+            bottom:500px;
+        }
+        .box9{
+            width: 100px;
+            height: 100px;
+            background-color: #fff8;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            position: relative;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            left:200px;
+            bottom:600px;
+        }
+        .box10{
+            width: 100px;
+            height: 100px;
+            background-color: #f005;
+            box-shadow: 5px 10px 5px rgb(0, 0, 0);
+            position: relative;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            left:200px;
+            bottom:600px;
+        }
+        
